@@ -30,8 +30,8 @@ public static void main(String[] args) {
 		// With parameter type
 		Operation subtraction = (int x,int y)->x-y;
 		
-		// With curly braces
-		Operation multiplication = (x,y)->{return x+y;};
+		// With curly braces  and return key word
+		Operation multiplication = (x,y)->{return x*y;};
 		
 		// Without  curly braces and return statement
 		Operation division = (int x,int y)->x/y;
